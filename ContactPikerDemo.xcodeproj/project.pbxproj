@@ -12,6 +12,12 @@
 		4C4BFDDE1ED69D8F00D2AE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BFDDC1ED69D8F00D2AE3A /* Main.storyboard */; };
 		4C4BFDE01ED69D8F00D2AE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BFDDF1ED69D8F00D2AE3A /* Assets.xcassets */; };
 		4C4BFDE31ED69D8F00D2AE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BFDE11ED69D8F00D2AE3A /* LaunchScreen.storyboard */; };
+		4C4BFDEC1ED69FF600D2AE3A /* EPContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BFDEA1ED69FF600D2AE3A /* EPContactCell.swift */; };
+		4C4BFDED1ED69FF600D2AE3A /* EPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4BFDEB1ED69FF600D2AE3A /* EPContactCell.xib */; };
+		4C4BFDF11ED6A71900D2AE3A /* EPContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BFDF01ED6A71900D2AE3A /* EPContact.swift */; };
+		4C4BFDF31ED6AC4200D2AE3A /* EPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BFDF21ED6AC4200D2AE3A /* EPConstants.swift */; };
+		4C4BFDF51ED6B86900D2AE3A /* EPContactsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BFDF41ED6B86900D2AE3A /* EPContactsPicker.swift */; };
+		4C4BFDF71ED6EF5D00D2AE3A /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4BFDF61ED6EF5D00D2AE3A /* EPExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		4C4BFDDF1ED69D8F00D2AE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4BFDE21ED69D8F00D2AE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4BFDE41ED69D8F00D2AE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4BFDEA1ED69FF600D2AE3A /* EPContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactCell.swift; sourceTree = "<group>"; };
+		4C4BFDEB1ED69FF600D2AE3A /* EPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EPContactCell.xib; sourceTree = "<group>"; };
+		4C4BFDF01ED6A71900D2AE3A /* EPContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContact.swift; sourceTree = "<group>"; };
+		4C4BFDF21ED6AC4200D2AE3A /* EPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPConstants.swift; sourceTree = "<group>"; };
+		4C4BFDF41ED6B86900D2AE3A /* EPContactsPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPContactsPicker.swift; sourceTree = "<group>"; };
+		4C4BFDF61ED6EF5D00D2AE3A /* EPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				4C4BFDD81ED69D8F00D2AE3A /* AppDelegate.swift */,
+				4C4BFDF21ED6AC4200D2AE3A /* EPConstants.swift */,
 				4C4BFDDA1ED69D8F00D2AE3A /* ViewController.swift */,
+				4C4BFDF01ED6A71900D2AE3A /* EPContact.swift */,
+				4C4BFDF41ED6B86900D2AE3A /* EPContactsPicker.swift */,
+				4C4BFDF61ED6EF5D00D2AE3A /* EPExtensions.swift */,
+				4C4BFDEA1ED69FF600D2AE3A /* EPContactCell.swift */,
+				4C4BFDEB1ED69FF600D2AE3A /* EPContactCell.xib */,
 				4C4BFDDC1ED69D8F00D2AE3A /* Main.storyboard */,
 				4C4BFDDF1ED69D8F00D2AE3A /* Assets.xcassets */,
 				4C4BFDE11ED69D8F00D2AE3A /* LaunchScreen.storyboard */,
@@ -126,6 +144,7 @@
 				4C4BFDE31ED69D8F00D2AE3A /* LaunchScreen.storyboard in Resources */,
 				4C4BFDE01ED69D8F00D2AE3A /* Assets.xcassets in Resources */,
 				4C4BFDDE1ED69D8F00D2AE3A /* Main.storyboard in Resources */,
+				4C4BFDED1ED69FF600D2AE3A /* EPContactCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4BFDDB1ED69D8F00D2AE3A /* ViewController.swift in Sources */,
+				4C4BFDF51ED6B86900D2AE3A /* EPContactsPicker.swift in Sources */,
+				4C4BFDEC1ED69FF600D2AE3A /* EPContactCell.swift in Sources */,
 				4C4BFDD91ED69D8F00D2AE3A /* AppDelegate.swift in Sources */,
+				4C4BFDF11ED6A71900D2AE3A /* EPContact.swift in Sources */,
+				4C4BFDF31ED6AC4200D2AE3A /* EPConstants.swift in Sources */,
+				4C4BFDF71ED6EF5D00D2AE3A /* EPExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
